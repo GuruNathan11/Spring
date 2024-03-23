@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Welcome Mail</title>
+  </head>
+  <body>
+    <div class="container" style="display: flex; justify-content: center">
+      <div class="card mt-5" style="border: 2px solid #0f3995; padding: 5px">
+        <div
+          class="card-header"
+          style="
+            background-color: #0f3995;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <h3 style="color: aliceblue; text-align: center">
+            Dear $FirstName
+          </h3>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>
+              I hope this email finds you in good health and high spirits.
+            </li>
+            <li>
+              We are thrilled to announce a significant upgrade in our
+              healthcare services-a powerful and user-friendly application,
+              Mettler Healthcare Software, is now available for all our staff.
+            </li>
+            <li>
+              This application is designed to streamline various processes,
+              enhance collaboration, and ultimately elevate the level of care we
+              provide to our valued patients.
+            </li>
+            <li>
+              Why Mettler Healthcare Software? Mettler Healthcare Software
+              offers an array of advanced features, making it an invaluable tool
+              for our day-to-day operations.
+            </li>
+            Some of the key benefits include:
+            <li>
+              Efficient Patient Management: Streamline patient records,
+              appointments, and treatment plans for smoother workflows.
+            </li>
+            <li>
+              Seamless Collaboration: Foster real-time communication and
+              collaboration among our healthcare teams for better coordination.
+            </li>
+            <li>
+              Data Security: Our utmost priority is safeguarding patient data,
+              and Mettler Healthcare Software ensures the highest level of
+              security.
+            </li>
+          </ul>
+          <strong>
+            Your Unique Credentials To begin using the application, you have
+            been assigned personalized login credentials. Below are your access
+            details:
+          </strong>
+          <div
+            style="
+              background: linear-gradient(to left, #6600ff, #8bacf4);
+              color: aliceblue;
+              display: flex;
+              justify-content: center;
+              padding: 5px;
+            "
+          >
+            <ul style="list-style: none">
+              <h4 style="font-size: 25px">
+                <li>Username:&nbsp;&nbsp;&nbsp;$UserName</li>
+                <li>Temporary Password:&nbsp;&nbsp;&nbsp;$TempPass</li>
+                <li>Secret Key:&nbsp;&nbsp;&nbsp;$SKey</li>
+              </h4>
+            </ul>
+          </div>
+          Getting Started To access the Mettler Healthcare Software Application,
+          please follow these simple steps:
+          <ul>
+            <li>
+              Tap the Get Started button to access the login page :
+              <a
+                style="
+                  color: blueviolet;
+                  text-decoration: underline;
+                "
+                href="http://47.32.210.178:3000/Login#/"
+                target="_blank"
+                rel="noopener"
+                >Get Started</a
+              >
+            </li>
+            <li>
+              Enter your Username and Temporary Password in the respective
+              fields.
+            </li>
+            <li>
+              You will be prompted to enter your Secret Key to add an extra
+              layer of security.
+            </li>
+            <li>
+              Create a new, strong password of your choice. Remember to keep it
+              secure and confidential.
+            </li>
+          </ul>
+          <strong style="color: blueviolet">
+            Congratulations! You are now ready to explore the full potential of
+            the Mettler Healthcare Software Application.
+          </strong>
+          <p>
+            Support and Feedback We understand that adapting to new technology
+            may require some guidance. Should you encounter any difficulties
+            during the login process or while using the application, our
+            dedicated IT support team is here to assist you. Feel free to reach
+            out to them at +1 024 235 811 . Your feedback is essential to us as
+            we continue optimizing the application to suit our specific needs.
+            We encourage you to share your suggestions, observations, and
+            success stories as you become familiar with the software. Together,
+            we can make this system a cornerstone of excellence in healthcare
+            delivery. Your Commitment Matters By embracing the Mettler
+            Healthcare Software, you contribute significantly to enhancing our
+            services and achieving excellence in patient care. We thank you for
+            your cooperation and commitment to making this transition
+            successful. Should you have any questions or need further
+            assistance, do not hesitate to contact me directly at [Your Contact
+            Information]. Here's to a new era of advanced healthcare services
+            with Mettler Healthcare Software!
+          </p>
+        </div>
+
+        <div
+          class="card-footer"
+          style="background-color: #0f3995; color: aliceblue; padding: 15px"
+        >
+          Best regards,
+          <br />
+          Mettler Health IT
+          <br />
+          <span
+            style="
+              text-decoration: none;
+              background-color: aliceblue;
+              padding: 2px;
+              color: black;
+            "
+          >
+            help@mettlerhealth.com
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

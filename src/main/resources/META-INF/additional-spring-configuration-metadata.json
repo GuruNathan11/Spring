@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "mettler.app.jwtCookieName",
+    "type": "java.lang.String",
+    "description": "A description for 'mettler.app.jwtCookieName'"
+  },
+  {
+    "name": "mettler.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'mettler.app.jwtSecret'"
+  },
+  {
+    "name": "mettler.app.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'mettler.app.jwtExpirationMs'"
+  },
+  {
+    "name": "springdoc.swagger-ui.path",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.swagger-ui.path'"
+  }
+]}
